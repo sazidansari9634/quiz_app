@@ -202,7 +202,7 @@ class _QuizScreenState extends State<QuizScreen> {
                               });
                             } else {
                               timer!.cancel();
-                             Navigator.push(context, 
+                             Navigator.pushReplacement(context, 
                              MaterialPageRoute(builder: (context)=> ResultScreen(
                               correctAnswers, 
                              incorrectAnswers, 
