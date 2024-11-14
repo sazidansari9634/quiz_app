@@ -31,7 +31,7 @@ class ResultScreen extends StatelessWidget {
                           height: 80,),
               const SizedBox(height: 10),            
               const Text("Congratulation You Got",style: TextStyle(
-                fontSize: 30,
+                fontSize: 25,
                 fontWeight: FontWeight.bold,
                 color: Colors.white
               ),),
